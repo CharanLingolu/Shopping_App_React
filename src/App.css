@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+
+ .headerSection{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(85, 85, 202);
+    padding-top: 10px;
+ }
+
+ .center ul li{
+    list-style: none;
+    display: inline-flex;
+    margin: 0px 10px;
+    font-size: 20px;
+    padding-top: 3px;
+    
+ }
+
+ .left{
+    flex: 2;
+    /* border: 1px solid black; */
+ }
+.center{
+    flex:4;
+    /* border: 1px solid black; */
+}
+.search{
+    flex: 4;
+    /* border: 1px solid black; */
+}
+
+.search input{
+    padding: 5px;
+    width: 500px;
+    /* border-radius: 5px; */
+    margin-left: -80px;
+}
+
+.right{
+    flex: 4;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+.bannerBox img{
+    width: 100%;
+    padding: 10px 0px;
+}
+
+.menImages{
+    display: flex;
+    gap: 10px;
+}
+
+.menImages img{
+    width: 245px;
+    height: 245px;
+}
+
+.womenSection{
+    padding: 20px 0px;
+}
+
+.ladiesBannerBox img{
+    width: 100%;
+    padding: 10px 0px;
+}
