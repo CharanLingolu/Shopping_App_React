@@ -1,15 +1,16 @@
-import React from 'react'
-import './App.css'
-import MainPage from './shoppingfolder/MainPage'
+import React from 'react';
+import './App.css';
+import MainPage from './shoppingfolder/MainPage';
+import { HashRouter } from "react-router-dom";
 
-
-const App=()=>{
-
+const App = () => {
   return (
-    <div>
-      <MainPage />
-    </div>
-  )
-}
+    <HashRouter>
+      <div>
+        <MainPage />
+      </div>
+    </HashRouter>
+  );
+};
 
-export default App
+export default App;
